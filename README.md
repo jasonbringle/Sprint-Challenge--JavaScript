@@ -29,27 +29,38 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+Map creates a new array!
 
 2. What is the difference between a function and a method?
+A function inside of an object as a parameter is called a method.  
 
 3. What is closure?
+Closure is basically a function inside of a function.  This type of code implimentation enables functions to have access to variables in it's scope.
 
 4. Describe the four rules of the 'this' keyword.
+1.Implicit Binding- Means you simple look to the left of the dot to tell what the context is for item.
+
+2.Explicit Binding- Literally states the context in the function call, apply keyword or bind keyword.
+
+3.Window Binding-Defaults to the window object when the function is invoked in the window.
+
+4.New Binding -- Function invoked with a 'new' keyword.... the this keyword is bound to the new object being constructed.
 
 5. Why do we need super() in an extended class?
+It brings over all of the attributes form the parent class.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
 - [*] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [*] Add TL as collaborator on Github.
+- [*] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [*] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [* ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [*] You are now ready to build this project with your preferred IDE
+- [*] Implement the project on your Branch, committing changes regularly.
+- [*] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
